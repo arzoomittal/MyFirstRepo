@@ -26,7 +26,7 @@ public class Arzoo {
 		for(int i=1; i<store.size()-1; i++){
 			if(store.get(i)==store.get(i-1)){
 			
-			//	System.out.println("Duplicate item: " + store.get(i));
+				System.out.println("Duplicate item: " + store.get(i));
 				store.remove(i);
 				
 			}
